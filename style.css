@@ -1,0 +1,61 @@
+@import url(https://db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
+body{
+    background-color:#BF8D7A;
+    font-family: "American Typewriter";
+    font-style: normal;
+    font-weight: 500;
+}
+nav{
+    width: 52.7vw;
+    margin: auto;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.blog-top{
+    top: 15px;
+    display: flex;
+    background-color: black;
+    width: 52.7vw;
+    margin: auto;
+    color: white;
+    margin-top: 10px;
+}
+.blog-top img{
+    height: 20vh;
+}
+.blog-top h1{
+    font-family: "American Typewriter";
+    font-style: normal;
+    font-weight: 500;
+    color: #BF8D7A;
+}
+.blog-top p{
+    margin-left: 5cm;
+}
+.blogTopWords{
+    margin:auto;
+}
+.blogbody{
+    height: 20vh;
+}
+#momSon{
+    margin-left: 1cm;
+    width: 40%;
+}
+.firstParagraph{
+    /* display: flex; */
+    background-color: white;
+    color: black;
+    width: 52.7vw;
+    margin: auto;
+}
+.titleFirstParagraph{
+    border: 1px black solid;
+    width: 30vw;
+}
