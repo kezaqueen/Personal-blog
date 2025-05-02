@@ -1,16 +1,26 @@
-@import url(https://db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+@import url('https://fonts.cdnfonts.com/css/poppins');
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    font-style: normal;
+}
 body{
     background-color:#BF8D7A;
-    font-family: "American Typewriter";
+     font-family: "American Typewriter";
     font-style: normal;
     font-weight: 500;
+
 }
 nav{
-    width: 52.7vw;
+    width: 55vw;
     margin: auto;
     background-color:black;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    margin-left: 21.9%;
 }
 nav a{
     text-decoration: none;
@@ -21,7 +31,7 @@ nav a{
     top: 15px;
     display: flex;
     background-color: black;
-    width: 52.7vw;
+    width: 55vw;
     margin: auto;
     color: white;
     margin-top: 10px;
@@ -46,16 +56,140 @@ nav a{
 }
 #momSon{
     margin-left: 1cm;
-    width: 40%;
+    width: 17vw;
+    margin-top: 85px;
+    border-radius: 5px;
 }
 .firstParagraph{
-    /* display: flex; */
     background-color: white;
     color: black;
-    width: 52.7vw;
+    width: 55vw;
     margin: auto;
 }
 .titleFirstParagraph{
-    border: 1px black solid;
+    padding: 3px;
     width: 30vw;
+    margin-left: 10px;
+    margin-top: 2px;
+    text-align: justify;
+} 
+.titleFirstParagraph h1{
+    box-shadow:5px 5px 5px #BF8D7A;
+    text-align: center;
+    width: 30vw;
+    padding-top: 10px;
+    margin-left: 5cm;
+    margin-top: 20px;
+
+}
+.titleFirstParagraph p{
+    margin-top: 30px;
+}
+.ParagraphOne{
+    display: flex;
+    padding: 15px;
+}
+.ReflectiveBlog{
+    text-align: justify;
+    padding: 22px;
+    margin-top: 40px;
+
+}
+.ReflectiveBlog h1{
+    box-shadow:5px 5px 5px #BF8D7A;
+    text-align: center;
+    width: 30vw;
+    padding-top: 10px;
+    margin-left: 5cm;
+
+}
+.quote{
+    padding: 15px;
+    text-align: justify;
+
+}
+.quote h1{
+    box-shadow:5px 5px 5px #BF8D7A;
+    text-align: center;
+    width: 30vw;
+    padding-top: 10px;
+    margin-left: 5cm;
+    margin-top: 20px;  
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+    margin-left: 70px;
+}
+.icons p{
+    margin-left: 100px;
+}
+hr{
+    position: relative;
+    max-width: 96%;
+
+    height: 1px;
+    background-color: black;
+}
+.likeMyPage{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+    padding: 15px;
+}
+.likeMyPage a{
+    text-decoration: none;
+    color:#BF8D7A;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+#favouriteQuote{
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 2em;
+}
+#imgTeach{
+    width: 7vw;
+}
+#copyright{
+    margin-left: 5cm;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav{
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .trevor{
+        margin-top: 34%;
+    }
+    .blogTopWords{
+        margin-top: 30%;
+    }
+    .blogTopWords p{
+        margin-left: 20px;
+    }
+    .ParagraphOne{
+        flex-wrap: wrap;
+    }
+    .titleFirstParagraph h1{
+       margin-left: 1cm;
+    }
+    .ReflectiveBlog h1{
+        margin-left: 1cm;
+    }
+    .quote h1{
+        margin-left: 1cm;
+    }
+    .titleFirstParagrap p{
+        width: 100vw;
+    }
 }
